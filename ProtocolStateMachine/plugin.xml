@@ -1,0 +1,28 @@
+<plugin
+		id="com.vp.plugin.sample.statediagram2"
+		description="Create Protocol State Machine"
+		provider="Visual Paradigm"
+		class="com.vp.plugin.sample.statediagram2.StateDiagramPlugin2">
+	
+	<actionSets>
+		<actionSet id="com.vp.plugin.sample.statediagram2.actionset1">
+			<toolbar
+					id="com.vp.plugin.sample.statediagram2.actionset1.toolbar1"
+					orientation="north"
+					index="last"/>
+			
+			<action
+					id="com.vp.plugin.sample.statediagram2.actionset1.StateDiagram2ActionControl"
+					actionType="generalAction"
+					label="Protocol State Machine"
+					tooltip="Create Protocol State Machine"
+					style="normal"
+          icon="icons/protocol.png"
+					toolbarPath="com.vp.plugin.sample.statediagram2.actionset1.toolbar1/#">
+				<actionController class="com.vp.plugin.sample.statediagram2.actions.StateDiagram2ActionControl"/>
+			</action>
+			
+		</actionSet>
+		
+	</actionSets>	
+</plugin>
